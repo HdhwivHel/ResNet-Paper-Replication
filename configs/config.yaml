@@ -24,4 +24,4 @@ model:
   name: "ResNet18[40].pth"
 
 model_to_test:
-  name: "ResNet18.pth"
+  name: "ResNet18[40].pth"
