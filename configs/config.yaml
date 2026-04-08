@@ -1,0 +1,27 @@
+training:
+  batch_size: 256
+  epochs: 40
+  learning_rate: 0.01
+  momentum: 0.9
+  weight_decay: 5e-4
+
+testing:
+  batch_size: 256
+
+train_dataloader:
+  num_workers: 6
+
+test_dataloader:
+  num_workers: 6
+
+scheduler:
+  type: "step" # options: step, multistep
+  step_size: 15 # for StepLR
+  gamma: 0.1
+  milestones: [30, 45] # for MultiStepLR
+
+model:
+  name: "ResNet18[40].pth"
+
+model_to_test:
+  name: "ResNet18.pth"
