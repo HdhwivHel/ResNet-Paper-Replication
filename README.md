@@ -45,13 +45,13 @@ The modular version separates model code, dataset pipeline, configuration, and t
 ### Train
 
 ```bash
-python training/train.py
+python -m training.train
 ```
 
 ### Evaluate
 
 ```bash
-python training/test.py
+python -m training.test
 ```
 
 Training, testing, scheduler, and model checkpoint names are configured in:
