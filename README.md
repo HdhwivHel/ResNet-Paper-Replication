@@ -20,8 +20,8 @@ This repository provides two ways to work with the ResNet-18 replication:
 Clone your repository and enter the project folder:
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-folder>
+git clone https://github.com/HdhwivHel/ResNet-Paper-Replication
+cd ResNet-Paper-Replication
 ```
 
 Install dependencies:
